@@ -5,8 +5,8 @@ import logging
 
 mqtt_host="54.242.14.9"
 
-DATA_TEMP_TOPIC = "/data/tuts/sensors/temp"
-DATA_SOIL_TOPIC = "/data/tuts/sensors/soil"
+DATA_TEMP_TOPIC = "/data/temp"
+DATA_SOIL_TOPIC = "/data"
 CONTROL_TOPIC = "/control"
 
 handlers={}
